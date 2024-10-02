@@ -1,0 +1,42 @@
+/* homepage.scss */
+#container {
+  text-align: center;
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+/* Nuevos estilos para la imagen */
+.centered-image {
+  width: 200px; /* Ajusta el ancho a 200px (o el tamaño que prefieras) */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 20px; /* Espaciado inferior para separar de otros elementos */
+}
+
+/* Asegúrate de que el contenedor tenga flexbox para centrar los elementos */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  height: 100%; /* Utiliza toda la altura del ion-content */
+}

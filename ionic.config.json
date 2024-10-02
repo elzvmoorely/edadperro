@@ -1,0 +1,7 @@
+{
+  "name": "edadperro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

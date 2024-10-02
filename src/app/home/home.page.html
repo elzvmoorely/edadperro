@@ -1,0 +1,20 @@
+<div id="container" class="container">
+  <ion-img class="centered-image" src="assets/icon/perro.png"></ion-img>
+  <ion-text>
+    <h1>¿Cuál es la edad de su mascota?</h1>
+  </ion-text>
+
+  <ion-input 
+    type="text" 
+    placeholder="Ingrese la edad en años" 
+    [(ngModel)]="edad">
+  </ion-input>
+
+  <ion-button (click)="calcular()" expand="block" shape="round">
+    Calcular
+  </ion-button>
+
+  <ion-text>
+    <h1>{{resultado}}</h1>
+  </ion-text>
+</div>
